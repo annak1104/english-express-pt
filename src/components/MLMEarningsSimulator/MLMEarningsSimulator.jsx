@@ -41,7 +41,7 @@ const MLMEarningsSimulator = () => {
         Indicações: {recruits}
       </p>
       <p className="font-montserrat text-3xl font-bold text-orange-500 mt-4">
-        ${earningsData[recruits] || "-"}
+        R${earningsData[recruits] || "-"}
       </p>
       <p className="italic text-gray-400 mt-3 text-xs">
         Disclaimer: exemplos apenas; ganhos não são garantidos. Os resultados
